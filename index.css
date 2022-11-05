@@ -1,0 +1,206 @@
+html {
+align-items: center;
+justify-content: center;
+display: flex;
+height:max-content;
+background-color: #1b58c8;
+background-image: url("/img/1202.png");
+
+}
+
+body {
+    margin-top:5px;
+    border-left: 3px solid #c1f3ff;
+    border-right: 3px solid #10429f;
+
+    background-color: #81b3df;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    height:100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px 10px #0a1fab;
+
+}
+
+.title {
+    width: 340px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.pretitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.titlebox {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+}
+.break {
+    height: 3px;
+    background-color: #c1f3ff;
+    width: 100%;
+    margin-top: 10px;
+}
+.break2 {
+    height: 3px;
+    background-color: #10429f;
+    width: 100%;
+    margin-top: 0px;
+}
+.originallist {
+    width:340px;
+    background-color: #5585de;
+    list-style: none;
+    border-left: 3px solid #10429f;
+    border-top: 3px solid #10429f;
+    border-right: 3px solid #c1f3ff;
+    border-bottom: 3px solid #c1f3ff;
+    padding: 20px;
+    
+}
+.originaltitle {
+    text-align: center;
+    padding: 2px;
+    background-color: #81b3df;
+    border-left: 3px solid #c1f3ff;
+    border-top: 3px solid #c1f3ff;
+    border-right: 3px solid #10429f;
+    border-bottom: 3px solid #10429f;
+}
+.originalfirst {    
+    cursor: pointer;
+    padding: 2px;
+    margin-top: 20px;
+    background-color: #81b3df;
+    border-left: 3px solid #c1f3ff;
+    border-top: 3px solid #c1f3ff;
+    border-right: 3px solid #10429f;
+    border-bottom: none;
+}
+.original{
+    padding: 2px;
+    margin-top: 0px;
+    background-color: #81b3df;
+    border-left: 3px solid #c1f3ff;
+    border-top: none;
+    border-right: 3px solid #10429f;
+    border-bottom: none;
+}
+.originallast {
+    cursor: pointer;
+    padding: 2px;
+    background-color: #81b3df;
+    border-left: 3px solid #c1f3ff;
+    border-top: none;
+    border-right: 3px solid #10429f;
+    border-bottom: 3px solid #10429f;
+}
+
+.originalfirst:hover {
+    padding: 2px;
+    background-color: #95c3eb;
+
+}
+.original:hover{
+    padding: 2px;
+    margin-top: 0px;
+    background-color: #95c3eb;
+
+
+}
+.originallast:hover {
+    padding: 2px;
+    background-color: #95c3eb;
+
+}
+
+
+.revivallist {
+    width:340px;
+    background-color: #5585de;
+    list-style: none;
+    border-left: 3px solid #10429f;
+    border-top: 3px solid #10429f;
+    border-right: 3px solid #c1f3ff;
+    border-bottom: 3px solid #c1f3ff;
+    padding: 20px;
+}
+.revivaltitle {
+    text-align: center;
+    padding: 2px;
+    background-color: #81b3df;
+    border-left: 3px solid #c1f3ff;
+    border-top: 3px solid #c1f3ff;
+    border-right: 3px solid #10429f;
+    border-bottom: 3px solid #10429f;
+}
+.revival {
+    cursor: pointer;
+    padding: 2px;
+    margin-top: 20px;
+    background-color: #81b3df;
+    border-left: 3px solid #c1f3ff;
+    border-top: 3px solid #c1f3ff;
+    border-right: 3px solid #10429f;
+    border-bottom: 3px solid #10429f;
+}
+.revival + .revival {
+    padding: 2px;
+    margin-top: 0px;
+    background-color: #81b3df;
+    border-left: 3px solid #c1f3ff;
+    border-top: none;
+    border-right: 3px solid #10429f;
+    border-bottom: none;
+}
+.revivallast {
+    cursor: pointer;
+    padding: 2px;
+    background-color: #81b3df;
+    border-left: 3px solid #c1f3ff;
+    border-top: none;
+    border-right: 3px solid #10429f;
+    border-bottom: 3px solid #10429f;
+}
+
+.revival:hover {
+    padding: 2px;
+    background-color: #95c3eb;
+
+}
+.revival:hover + .revival:hover {
+    padding: 2px;
+    margin-top: 0px;
+    background-color: #95c3eb;
+
+}
+.revivallast:hover {
+    padding: 2px;
+    background-color: #95c3eb;
+
+}
+
+.link {
+    text-decoration: none;
+    color:black;
+}
+.infobutton {
+    text-align: center;
+    padding: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #81b3df;
+    border-left: 3px solid #c1f3ff;
+    border-top: 3px solid #c1f3ff;
+    border-right: 3px solid #10429f;
+    border-bottom: 3px solid #10429f;
+}
+.infobutton:hover {
+    background-color: #95c3eb;
+
+}
