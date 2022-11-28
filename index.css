@@ -204,3 +204,20 @@ body {
     background-color: #95c3eb;
 
 }
+
+
+.a404box {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+}
+.a404image {
+    width:290px;
+    border-left: 3px solid #10429f;
+    border-top: 3px solid #10429f;
+    border-right: 3px solid #c1f3ff;
+    border-bottom: 3px solid #c1f3ff;
+
+}
