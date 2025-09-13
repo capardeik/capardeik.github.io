@@ -143,6 +143,18 @@ body {
     margin-bottom: 0px;
     margin-top: 0px;
 }
+#familyexpandbutton {
+    color:#0000aa;
+    cursor:alias;
+}
+#familycollapsebutton {
+    color:#0000aa;
+    cursor:alias;
+    display:none;
+}
+#familyexpand {
+    display:none;
+}
 .detailtitle {
     margin-bottom: 0px;
     margin-top: 0px;
