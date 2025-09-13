@@ -2,7 +2,7 @@
 const params = new URLSearchParams(window.location.search);
 const comicId = params.get('id');
 
-fetch('comics.json')
+fetch('../comics.json')
   .then(response => response.json())
   .then(comics => {
     const comic = comics.find(c => c.id === comicId);

@@ -1,21 +1,23 @@
 [
   {
-    "id": "001",
-    "title": "Breakfast Disaster",
+    "id": "1",
+    "numInSeries": "1",
+
+    "titlePanelType": "Classic Title Panel",
     "characters": ["Alice", "Bob", "Dog"],
-    "location": "Kitchen",
+    "locations": ["Kitchen"],
     "panels": 4,
-    "color": true,
+    "color": false,
     "panel_descriptions": [
-      "Alice spills cereal",
-      "Bob laughs",
-      "Dog eats cereal",
-      "Everyone sighs"
+      "Mr. Lazoo in his car drives over a small ramp.",
+      "Mr. Lazoo in his car drives over a medium ramp.",
+      "Mr. Lazoo in his car drives over a large ramp.",
+      "Mr. Lazoo in his car drives over a giant ramp."
     ],
-    "image": "comics/001.png"
+    "image": "comics/1.png"
   },
   {
-    "id": "002",
+    "id": "2",
     "title": "Library Shenanigans",
     "characters": ["Alice", "Clara"],
     "location": "Library",
