@@ -1,0 +1,31 @@
+[
+  {
+    "id": "001",
+    "title": "Breakfast Disaster",
+    "characters": ["Alice", "Bob", "Dog"],
+    "location": "Kitchen",
+    "panels": 4,
+    "color": true,
+    "panel_descriptions": [
+      "Alice spills cereal",
+      "Bob laughs",
+      "Dog eats cereal",
+      "Everyone sighs"
+    ],
+    "image": "comics/001.png"
+  },
+  {
+    "id": "002",
+    "title": "Library Shenanigans",
+    "characters": ["Alice", "Clara"],
+    "location": "Library",
+    "panels": 3,
+    "color": false,
+    "panel_descriptions": [
+      "Alice studies",
+      "Clara sneaks up",
+      "Books tumble over"
+    ],
+    "image": "comics/002.png"
+  }
+]
