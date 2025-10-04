@@ -10,6 +10,10 @@
     font-family: 'MonospaceTypewriter';
     src: url('fonts/MonospaceTypewriter.ttf');
 }
+@font-face {
+    font-family: 'ArialNarrow7';
+    src: url('fonts/arial_narrow_7.ttf');
+}
 
 .main-body {
     background-image: url("codebackground.png");
@@ -39,8 +43,31 @@
 
 }
 
+.body-text {
+    font-size: larger;
+    color: #fff;
+    font-family: "ArialNarrow7";  
+}
+
+*::moz-selection {
+    background: #008800;
+}
+*::selection {
+    background: #008800;
+}
+
 .header-image {
     width: 25%;
     position:relative;
     text-align: center;
+}
+
+.main-image {
+    box-shadow: 5px 5px 0px 0px black;
+    border: inset white;
+}
+
+.main-image:hover {
+    box-shadow: 5px 5px 0px 0px black;
+    border: inset #008800;
 }
