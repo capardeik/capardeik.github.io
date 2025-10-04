@@ -1,46 +1,74 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>Mr. Lazoo</title>
-        <meta name="author" content="Caleb Pardeik">
-        <link rel="icon" type="image/x-icon" href="img/favicon.png">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="titlebox">
-            <h1 class="pretitle">The Great Comics of</h1>
-            <a class="linktop" href="index.html">
-        <img class="title" src="img/mrlazoo.png" alt="Mr. Lazoo">
-        </a>
+<html lang="en">
+<head>
+<title>Caleb Pardeik's Web Site</title>
+<link rel="stylesheet" href="index.css">
+<script src="main.js"></script> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="main-body">
+    <div class="title-box">
+        <img class="title-image" src="images/title.png">
+        <!--https://stackoverflow.com/questions/7844399/responsive-image-map-->
+        <div style="position:relative; width:50%; margin: 0 auto;">
+            <img class="title-menu" id="title-menu" src="images/titlemenu_h.png">
+            <a><div style="position: absolute; left: 4%; top: 1.5%; width: 15.3%; height: 73%; background-color: rgba(255, 0, 0, 0);" onmouseover="MouseOver('h')" onmouseout="MouseOut('h')" onmousedown="MouseClick('h',1)" onmouseup="MouseClick('h',0)"></div></a>
+            <a><div style="position: absolute; left: 19.3%; top: 6.5%; width: 18.4%; height: 73%; background-color: rgba(0, 255, 0, 0);" onmouseover="MouseOver('a')" onmouseout="MouseOut('a')" onmousedown="MouseClick('a',1)" onmouseup="MouseClick('a',0)"></div></a>
+            <a><div style="position: absolute; left: 37.7%; top: 13%; width: 30%; height: 72%; background-color: rgba(0, 0, 255, 0);" onmouseover="MouseOver('p')" onmouseout="MouseOut('p')" onmousedown="MouseClick('p',1)" onmouseup="MouseClick('p',0)"></div></a>
+            <a><div style="position: absolute; left: 67.7%; top: 21%; width: 26%; height: 70%; background-color: rgba(255, 255, 255, 0);" onmouseover="MouseOver('c')" onmouseout="MouseOut('c')" onmousedown="MouseClick('c',1)" onmouseup="MouseClick('c',0)"></div></a>
         </div>
+    </div>
+    <div id="h">
+        <h1 class="title-text" style="text-align: left; margin-left: 10vw;">Hi! My name is Caleb Pardeik.</h1>
+    </div>
 
-        <div class="originalbox">
-        <ul class="originallist">
-            <li class="originaltitle">The Original Series</li>
-            <a class="link" href="1.html"><li class="originalfirst">#1-21: Humble Beginnings</li></a>
-            <a class="link" href="2.html"><li class="original">#22-40: The Lazoos Help Blow Up the World</li></a>
-            <a class="link" href="3.html"><li class="original">#41-60: Abbigail Gets Detention</li></a>
-            <a class="link" href="4.html"><li class="original">#60½-100: Derrick Goes Sub-Atomic</li></a>
-            <a class="link" href="5.html"><li class="original">#101-130: Janet Does a Little Interplanetary Travel</li></a>
-            <a class="link" href="6.html"><li class="original">#131-170: Abbigail Goes to Earth</li></a>
-            <a class="link" href="7.html"><li class="original">Additional Pages</li></a>
-            <a class="link" href="8.html"><li class="originallast">Deleted Scenes</li></a>
-        </ul>
+
+
+
+
+
+
+    <div id="a" style="display:none">
+        <p style="color:white">bb</p>
+        <div id="about-header">
+            <p class="title-text">HELLO</p>
+            <img src="images/header.png" class="header-image">
         </div>
-        <div class="revivalbox">
-        <ul class="revivallist">
-            <li class="revivaltitle">The Revival Series</li>
-            <a class="link" href="1.html"><li class="revival">#1-9: Humble Reginnings</a></li>            
-        </ul>
-        </div>
-        <div class="originalbox">
-            <ul class="originallist">
-                <li class="originaltitle">Miscellaneous</li>
-                <a class="link" href="characters.html"><li class="originalfirst">Characters</li></a>
-                <a class="link" href="locations.html"><li class="originallast">Locations</li></a>
-            </ul>
-            </div>
-        <a class="link" href="info.html"><div class="infobutton">Information</div></a>
-    </body>
+    
+    
+    </div>
+
+
+
+
+
+
+
+    <div id="p" style="display:none">
+        <p style="color:white">cc</p>
+    </div>
+
+
+
+
+
+
+
+    <div id="c" style="display:none">
+        <h1 class="title-text">e-mail: capardeik@gmail.com</h1>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+<script>
+</script>
+
+</body>
 </html>
